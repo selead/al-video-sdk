@@ -20,9 +20,10 @@ type ClientInfo struct {
 
 // Request
 type BizData struct {
-	BizType string   `json:"bizType,omitempty"`
-	Scenes  []string `json:"scenes,omitempty"`
-	Tasks   []*Task  `json:"tasks" valid:"required"`
+	BizType  string   `json:"bizType,omitempty"`
+	Scenes   []string `json:"scenes,omitempty"`
+	Tasks    []*Task  `json:"tasks" valid:"required"`
+	Callback string   `json:"callback,omitempty"`
 }
 
 type Task struct {
