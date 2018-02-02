@@ -24,6 +24,7 @@ type BizData struct {
 	Scenes   []string `json:"scenes,omitempty"`
 	Tasks    []*Task  `json:"tasks" valid:"required"`
 	Callback string   `json:"callback,omitempty"`
+	Seed     string   `json:"seed,omitempty"`
 }
 
 type Task struct {
