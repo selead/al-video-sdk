@@ -41,7 +41,7 @@ type Request struct {
 // Response
 type Response struct {
 	Code      int     `bson:"code" json:"code"`
- -	Msg       string  `bson:"msg" json:"msg"`
+	Msg       string  `bson:"msg" json:"msg"`
 	DataSlice []*Data `bson:"data,omitempty,omitempty" json:"data,omitempty,omitempty"`
 	Date      string  `bson:"date,omitempty" json:"date,omitempty"`
 	Source    string  `bson:"source,omitempty" json:"source,omitempty"`
