@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spiderorg/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 type DefaultClient struct {
